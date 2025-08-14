@@ -1,4 +1,4 @@
-🍴 Restaurant Billing Software
+# 🍴 Restaurant Billing Software
 
 A Python-based billing system for restaurants that supports Dine-In and Takeaway orders.
 It handles menu management, order entry, tax/discounts, bill generation, and reporting with database support.
@@ -8,7 +8,7 @@ It handles menu management, order entry, tax/discounts, bill generation, and rep
 
 Upload & manage menu items (Name, Category, Price, GST).
 
-🛒 Order Entry
+# 🛒 Order Entry
 
 Choose Dine-In or Takeaway.
 
@@ -24,19 +24,19 @@ Apply optional discounts.
 
 Accept Cash / Card / UPI payments.
 
-🧾 Bill Generation
+# 🧾 Bill Generation
 
 Generate itemized bills with tax & discount breakdown.
 
 Export bills to PDF (fpdf2), CSV, or JSON.
 
-🗄 Data Storage
+# 🗄 Data Storage
 
 Save transactions in SQLite3 Database.
 
 Stores items, GST, discounts, payment method, and timestamps.
 
-📊 Reports
+# 📊 Reports
 
 Daily / Weekly / Monthly sales summary.
 
@@ -44,7 +44,7 @@ Track most sold items.
 
 Export reports as CSV.
 
-📦 Requirements
+# 📦 Requirements
 
 Python 3.x
 
@@ -52,7 +52,7 @@ Required Libraries:
 
 pip install streamlit pandas fpdf2
 
-⚡ How to Run
+# ⚡ How to Run
 1️⃣ Initialize Database
 python app.py init
 python app.py load_menu
@@ -71,7 +71,7 @@ streamlit run ui/main_ui.py
 
 python ui/main_ui.py
 
-📂 Project Structure
+# 📂 Project Structure
 resturant_billing/
 │── app.py                  # CLI helper (DB setup, menu load, test seed)
 │
@@ -92,7 +92,7 @@ resturant_billing/
 │
 └── README.md                # Documentation
 
-🧪 Test Cases
+# 🧪 Test Cases
 
 Includes 5 sample test bills:
 ✔ Multiple items (combo order)
@@ -101,7 +101,7 @@ Includes 5 sample test bills:
 ✔ UPI vs Cash Payment
 ✔ Edge case: No item selected
 
-📸 Sample Bill Export
+# 📸 Sample Bill Export
 
 Order ID: 101
 Mode: Dine-In
@@ -118,10 +118,10 @@ Discount: ₹0
 Total: ₹714
 Payment: UPI
 
-👨‍💻 Author
+# 👨‍💻 Author
 
-GitHub: @tulsidounekarr
+- GitHub: [@tulsidounekarr](https://github.com/tulsidounekarr)
+  
+# 📄 License
 
-📜 License
-
-This project is open-source and available under the MIT License.
+This project is open-source and available under the [MIT License](LICENSE).
