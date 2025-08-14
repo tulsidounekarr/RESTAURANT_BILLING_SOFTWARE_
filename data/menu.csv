@@ -1,0 +1,6 @@
+item_name,category,price,gst
+Burger,Food,120,5
+Pizza,Food,250,5
+Coke,Beverage,60,5
+Fries,Food,90,5
+Water Bottle,Beverage,20,0
