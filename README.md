@@ -118,6 +118,10 @@ Discount: ₹0
 Total: ₹714
 Payment: UPI
 
+# preview
+
+![image alt](https://github.com/tulsidounekarr/RESTAURANT_BILLING_SOFTWARE_/blob/3555d9d9d5702936371583026506773f3186814b/Screenshot%20(18).png)
+
 # 👨‍💻 Author
 
 - GitHub: [@tulsidounekarr](https://github.com/tulsidounekarr)
